@@ -1,0 +1,13 @@
+.container{
+     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.048);
+}
+
+
+.float-right{
+    zoom: 0.25;
+}
+@media only screen and (max-width: 600px) {
+    .float-right{
+        zoom: 0.15;
+    }
+  }

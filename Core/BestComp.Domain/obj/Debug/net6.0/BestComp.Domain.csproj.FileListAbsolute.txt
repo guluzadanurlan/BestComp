@@ -1,0 +1,12 @@
+E:\Projects\BestComp\Core\BestComp.Domain\bin\Debug\net6.0\BestComp.Domain.deps.json
+E:\Projects\BestComp\Core\BestComp.Domain\bin\Debug\net6.0\BestComp.Domain.dll
+E:\Projects\BestComp\Core\BestComp.Domain\bin\Debug\net6.0\BestComp.Domain.pdb
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.csproj.AssemblyReference.cache
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.AssemblyInfoInputs.cache
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.AssemblyInfo.cs
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.csproj.CoreCompileInputs.cache
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.dll
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\refint\BestComp.Domain.dll
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\BestComp.Domain.pdb
+E:\Projects\BestComp\Core\BestComp.Domain\obj\Debug\net6.0\ref\BestComp.Domain.dll

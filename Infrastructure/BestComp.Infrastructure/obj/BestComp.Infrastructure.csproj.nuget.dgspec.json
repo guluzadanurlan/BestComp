@@ -4,6 +4,114 @@
     "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Infrastructure\\BestComp.Infrastructure.csproj": {}
   },
   "projects": {
+    "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj",
+        "projectName": "BestComp.Application",
+        "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj",
+        "packagesPath": "C:\\Users\\Computer clinic\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computer clinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj": {
+                "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj",
+        "projectName": "BestComp.Domain",
+        "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Computer clinic\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computer clinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Infrastructure\\BestComp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +133,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj": {
+                "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

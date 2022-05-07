@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BestComp.Infrastructure/1.0.0": {
+        "dependencies": {
+          "BestComp.Application": "1.0.0"
+        },
+        "runtime": {
+          "BestComp.Infrastructure.dll": {}
+        }
+      },
+      "BestComp.Application/1.0.0": {
+        "dependencies": {
+          "BestComp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BestComp.Application.dll": {}
+        }
+      },
+      "BestComp.Domain/1.0.0": {
+        "runtime": {
+          "BestComp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BestComp.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BestComp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BestComp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+E:\Projects\BestComp\Core\BestComp.Application\bin\Debug\net6.0\BestComp.Application.deps.json
+E:\Projects\BestComp\Core\BestComp.Application\bin\Debug\net6.0\BestComp.Application.dll
+E:\Projects\BestComp\Core\BestComp.Application\bin\Debug\net6.0\BestComp.Application.pdb
+E:\Projects\BestComp\Core\BestComp.Application\bin\Debug\net6.0\BestComp.Domain.dll
+E:\Projects\BestComp\Core\BestComp.Application\bin\Debug\net6.0\BestComp.Domain.pdb
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.csproj.AssemblyReference.cache
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.AssemblyInfoInputs.cache
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.AssemblyInfo.cs
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.csproj.CoreCompileInputs.cache
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.csproj.CopyComplete
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.dll
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\refint\BestComp.Application.dll
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\BestComp.Application.pdb
+E:\Projects\BestComp\Core\BestComp.Application\obj\Debug\net6.0\ref\BestComp.Application.dll

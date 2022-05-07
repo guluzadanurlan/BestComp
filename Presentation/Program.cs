@@ -5,6 +5,9 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+DateTime a=new DateTime();
+Console.WriteLine(a);
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

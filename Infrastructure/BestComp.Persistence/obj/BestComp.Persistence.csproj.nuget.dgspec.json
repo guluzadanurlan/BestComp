@@ -4,14 +4,70 @@
     "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj": {
+    "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj",
-        "projectName": "BestComp.Persistence",
-        "projectPath": "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj",
+        "projectUniqueName": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj",
+        "projectName": "BestComp.Application",
+        "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj",
         "packagesPath": "C:\\Users\\Computer clinic\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\obj\\",
+        "outputPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computer clinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj": {
+                "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj",
+        "projectName": "BestComp.Domain",
+        "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj",
+        "packagesPath": "C:\\Users\\Computer clinic\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Computer clinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +93,90 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj",
+        "projectName": "BestComp.Persistence",
+        "projectPath": "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\BestComp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Computer clinic\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\BestComp\\Infrastructure\\BestComp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Computer clinic\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj": {
+                "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

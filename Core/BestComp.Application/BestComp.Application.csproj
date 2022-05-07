@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+<ItemGroup>
+    <ProjectReference Include="..\BestComp.Domain\BestComp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

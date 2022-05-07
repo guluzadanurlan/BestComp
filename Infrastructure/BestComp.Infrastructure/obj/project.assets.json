@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BestComp.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BestComp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BestComp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BestComp.Application.dll": {}
+        }
+      },
+      "BestComp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BestComp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BestComp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BestComp.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/BestComp.Application/BestComp.Application.csproj",
+      "msbuildProject": "../../Core/BestComp.Application/BestComp.Application.csproj"
+    },
+    "BestComp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/BestComp.Domain/BestComp.Domain.csproj",
+      "msbuildProject": "../../Core/BestComp.Domain/BestComp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BestComp.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Computer clinic\\.nuget\\packages\\": {}
@@ -31,7 +68,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj": {
+              "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Application\\BestComp.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

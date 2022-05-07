@@ -1,0 +1,17 @@
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Infrastructure.deps.json
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Infrastructure.dll
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Infrastructure.pdb
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Application.dll
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Domain.dll
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Application.pdb
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\bin\Debug\net6.0\BestComp.Domain.pdb
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.csproj.AssemblyReference.cache
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.AssemblyInfoInputs.cache
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.AssemblyInfo.cs
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.csproj.CopyComplete
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.dll
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\refint\BestComp.Infrastructure.dll
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\BestComp.Infrastructure.pdb
+E:\Projects\BestComp\Infrastructure\BestComp.Infrastructure\obj\Debug\net6.0\ref\BestComp.Infrastructure.dll

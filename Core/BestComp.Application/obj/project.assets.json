@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "BestComp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BestComp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BestComp.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BestComp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BestComp.Domain/BestComp.Domain.csproj",
+      "msbuildProject": "../BestComp.Domain/BestComp.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "BestComp.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Computer clinic\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj": {
+              "projectPath": "E:\\Projects\\BestComp\\Core\\BestComp.Domain\\BestComp.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
